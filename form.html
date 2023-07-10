@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1> 
+
+        <h2>User Information</h2><hr>
+<p>Required feilds are denoted by (*)</p>
+        <p>Name:*<input type="text" name="Name" required></p>
+        
+            <fieldset>
+                <legend>gender*</legend>
+                <p>
+            Male <input type="radio" name="gender" id="male"required>
+            Female <input type="radio" name="gender" id="female"required>
+            </p>
+        </fieldset> 
+        <p>Address: <textarea name="Address" id="Address"required cols="100" rows="10"></textarea></p>
+        <p>Email:* <input type="email" name="Email"  id="Email"required></p>
+        <p>phone number:* <input type="number" name="phone number" id="phone number"required></p>
+        <p>pin: <input type="number" name="Pincode" id="Pincode"required></p> 
+        <h2>Payment Information</h2>
+        <p>card type:*
+            <select name="card_type" id="card_ype"required>
+                <option value="">--select a card type</option>
+                <option value="visa">visa</option>
+                <option value="phonepay">phonepay</option>
+                <option value="G pay">G pay</option>
+            </select>
+        </p><a href=""></a>
+        <p>                <option value="paytm">paytm</option>
+
+            card number:* <input type="number" name="card number" id="card number"required>
+        </p>
+        <p>card expire date: <input type="date" name="card expire date" id="card expire date"required></p>
+    <p>cvv:* <input type="password" name="cvv" id="cvv"required></p>
+    <input type="submit" value="Pay Now">
+    </form>
+    </div>
+</body>
+
+</html>
