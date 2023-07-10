@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background property</title>
+    <style> 
+        a{
+        text-decoration: none;
+        background-attachment:scroll;
+
+       }
+     
+     div{
+      font-weight: lighter;
+      text-align: center;
+      padding: 20px;
+      font-family: cursive;
+      word-spacing:0rlh;
+     margin: 15px;
+     border: 18px rgb(0, 0, 0);
+     background-image: url(https://th.bing.com/th/id/OIP.wi6PsEsCIwSs7nbr_p2jOAHaEK?w=322&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+     }
+       
+       
+       
+      
+      button{
+        color: rgba(247, 51, 51, 0.941);
+       viewport-fit:cover;
+       background-color: aliceblue;
+      }
+      
+        h1{
+            color: rgba(249, 230, 156, 0.852);
+            text-align:center;    
+       background-image: url(https://wallpapercave.com/wp/wp7420924.jpg);
+       font-family:fantasy;
+       font-size: 70px;
+       background-attachment: fixed;
+       text-transform: uppercase;
+       text-shadow:4px 7px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+        
+      }   
+    
+ 
+     p{
+        color: #ffffff;
+        font-family: cursive;
+        
+        text-align: center;
+       font-display:inherit;
+       font-weight: lighter;
+       text-transform: capitalize;
+       text-indent: 20%;
+       word-spacing:0rlh;
+       line-height: 1.5;
+       
+       
+     }
+     body{background-image: url(https://wallpaperaccess.com/full/3239480.jpg);
+    position: sticky;}
+      nav a{
+        padding: 20px;
+      }
+     
+
+    
+    </style>
+</head>
+<body>
+  <nav>
+  <button><a href="#">home</a></button>
+    <button><a href="7061838495">contact</a></button>
+    
+    <button><a href="https://goo.gl/maps/NH2uxPUbfARzKRge9">address</a></button>
+
+  </button>
+  </nav>
+    <h1> Cascading Style Sheet</h1>
+    <center><img src="https://wallpapercave.com/wp/wp7420862.jpg" alt="this is an image" width="700"></center>
+    <p><b>Cascading Style Sheets (CSS)</b> <em>is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+        
+
+        CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+        
+        Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+        
+        The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+        
+        The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
+        
+        In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in GTK widget toolkit.</em></p>
+      
+        <div><h2>Declaration block</h2>
+          <em>A declaration block consists of a list of declarations in braces. Each declaration itself consists of a property, a colon (:), and a value. If there are multiple declarations in a block, a semi-colon (;) must be inserted to separate each declaration. An optional semi-colon after the last (or single) declaration may be used. Optional white-space may be around the declaration block, declarations, colons, and semi-colons for readability.[9]
+          
+          Properties are specified in the CSS standard. Each property has a set of possible values. Some properties can affect any type of element, and others apply only to particular groups of elements.[10][11]
+          
+          Values may be keywords, such as "center" or "inherit", or numerical values, such as 200px (200 pixels), 50vw (50 percent of the viewport width) or 80% (80 percent of the parent element's width). Color values can be specified with keywords (e.g. "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that specify both color and alpha transparency (e.g. rgba(255, 0, 0, 0.8)), or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).[12]
+ 
+          Length units
+          Non-zero numeric values representing linear measures must include a length unit, which is either an alphabetic code or abbreviation, as in 200px or 50vw; or a percentage sign, as in 80%. Some units – cm (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) – are absolute, which means that the rendered dimension does not depend upon the structure of the page; others – em (em); ex (ex) and px (pixel)[clarification needed] – are relative, which means that factors such as the font size of a parent element can affect the rendered measurement. These eight units were a feature of CSS 1[13] and retained in all subsequent revisions. The proposed CSS Values and Units Module Level 3 will, if adopted as a W3C Recommendation, provide seven further length units: ch; Q; rem; vh; vmax; vmin; and vw.[14]
+          
+          Use
+          Before CSS, nearly all presentational attributes of HTML documents were contained within the HTML markup. All font colors, background styles, element alignments, borders, and sizes had to be explicitly described, often repeatedly, within the HTML. CSS lets authors move much of that information to another file, the style sheet, resulting in considerably simpler HTML.
+          
+          For example, headings (h1 elements), sub-headings (h2), sub-sub-headings (h3), etc., are defined structurally using HTML. In print and on the screen, choice of font, size, color and emphasis for these elements is presentational.
+          
+          Before CSS, document authors who wanted to assign such typographic characteristics to, say, all h2 headings had to repeat HTML presentational markup for each occurrence of that heading type. This made documents more complex, larger, and more error-prone and difficult to maintain. CSS allows the separation of presentation from structure. CSS can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics, and can do so independently for on-screen and printed views. CSS also defines non-visual styles, such as reading speed and emphasis for aural text readers. The W3C has now deprecated the use of all presentational HTML markup.[15]
+          
+          For example, under pre-CSS HTML, a heading element defined with red text would be written as:
+          
+          <h1><font color="yellow">Note</font></h1>
+          Using CSS, the same element can be coded using style properties instead of HTML presentational attributes:
+          
+          
+          The advantages of this may not be immediately clear but the power of CSS becomes more apparent when the style properties are placed in an internal style element or, even better, an external CSS file. For example, suppose the document contains the style element:
+          
+          <style>
+              h1 {
+                  color: rgb(150, 35, 35);
+              }
+          </style>
+          All h1 elements in the document will then automatically become red without requiring any explicit code. If the author later wanted to make h1 elements blue instead, this could be done by changing the style element to:
+          
+          <style>
+              h1 {
+                  color: rgb(202, 165, 42);
+              }
+          </style>
+          rather than by laboriously going through the document and changing the color for each individual h1 element.
+          
+          The styles can also be placed in an external CSS file, as described below, and loaded using syntax similar to:
+          
+          <link href="path/to/file.css" rel="stylesheet" type="text/css">
+          This further decouples the styling from the HTML document and makes it possible to restyle multiple documents by simply editing a shared external CSS file.
+          
+          Sources
+          CSS information can be provided from various sources. These sources can be the web browser, the user, and the author. The information from the author can be further classified into inline, media type, importance, selector specificity, rule order, inheritance, and property definition. CSS style information can be in a separate document, or it can be embedded into an HTML document. Multiple style sheets can be imported. Different styles can be applied depending on the output device being used; for example, the screen version can be quite different from the printed version, so authors can tailor the presentation appropriately for each medium.
+          
+          The style sheet with the highest priority controls the content display. Declarations not set in the highest priority source are passed on to a source of lower priority, such as the user agent style. The process is called cascading
+          
+          One of the goals of CSS is to allow users greater control over presentation. Someone who finds red italic headings difficult to read may apply a different style sheet. Depending on the browser and the website, a user may choose from various style sheets provided by the designers, or may remove all added styles, and view the site using the browser's default styling, or may override just the red italic heading style without altering other attributes. Browser extensions like Stylish and Stylus have been created to facilitate the management of such user style sheets.</em></div>
+          <hr>
+          <style>
+            h2{
+              color: rgba(0, 0, 0, 0.436);
+            }
+            h4{
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            a:hover{
+    color: rgb(57, 167, 17);
+    text-decoration: none;
+}
+a{color: rgb(255, 34, 34);
+background-color: ;}
+button{background-color: rgb(0, 0, 0);}
+div{
+  border: 15px solid black;
+}
+h3{
+  color: azure;
+}
+h4{color: beige;}
+b{
+  color: beige;
+}
+          </style>
+          <h3><center>Our Founder</center></h3>
+          <center><img src="c:\Users\91706\Downloads\photo anonyms.png" width="300" alt="Syed Sadiq Hassan"></center>
+          <center><h4>Syed Imran Hassan</h4></center>
+          <center><a href="#">youtube</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#">linkedin</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#">twitter</a>
+          </center><br>
+         
+          <center><b>Introducing Syed Imran Hassan: Founder of a Visionary Technology Website</b>
+
+
+            <p><em>Syed Imran Hassan, a passionate computer science engineering student and founder of a groundbreaking website, is a visionary in the world of technology. With achievements in renowned examinations like JEE Mains, WBJEE, AIEEE, and COMEDK, he exemplifies brilliance and innovation. Through his website, he empowers individuals and organizations with cutting-edge knowledge and resources, inspiring them to push boundaries and navigate the digital age. Join Syed Imran Hassan on this transformative journey and unlock the limitless potential of technology. Together, let's shape the future with knowledge, passion, and technology.</em></p></center> <hr>
+
+</body>
+<style>
+  footer{
+    background-color:black;
+    padding: 15px;
+  }
+</style>
+<footer>
+<a href="#">FAQs</a>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
+<a href="#">&copy; 2023</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">Refund policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="c:\Users\91706\Documents\form.html">Pay</a>
+
+
+</footer>
+</html>
